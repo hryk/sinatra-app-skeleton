@@ -30,3 +30,6 @@ gem "redis-store","0.3.6",
 
 gem "redis-rb","0.1",
   :git => "git://github.com/ezmobius/redis-rb.git" #,  :vendored_at => "vendor/gems/redis-rb"
+
+gem 'sinatra-erubis', '0.0.1',
+  :git => "git://github.com/hryk/sinatra-erubis.git"

@@ -3,10 +3,9 @@ require 'rubygems'
 
 APP_ROOT = File.expand_path(File.dirname(__FILE__))
 
+require "#{APP_ROOT}/vendor/gems/environment"
+
 $: << "#{APP_ROOT}/lib/"
-# Dir.glob("#{APP_ROOT}/vendor/*/lib/").each do |path|
-#   $: << path
-# end
 
 require 'skel'
 
