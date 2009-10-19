@@ -16,6 +16,7 @@ gem "do_mysql"
 gem "sinatra", "0.10.1",
   :git => "git://github.com/sinatra/sinatra.git" #,  :vendored_at => "vendor/gems/sinatra"
 
+gem "mailfactory"
 gem "sinatra-mailer", "0.9.3",
   :git => "git://github.com/kusor/sinatra_mailer.git" #,  :vendored_at => "vendor/gems/sinatra-mailer"
 
@@ -33,3 +34,8 @@ gem "redis-rb","0.1",
 
 gem 'sinatra-erubis', '0.0.1',
   :git => "git://github.com/hryk/sinatra-erubis.git"
+
+gem 'sinatra-respond_to', '0.3.6',
+  :git => "git://github.com/hryk/sinatra-respond_to.git"
+
+disable_system_gems

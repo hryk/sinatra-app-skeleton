@@ -9,4 +9,4 @@ $: << "#{APP_ROOT}/lib/"
 
 require 'skel'
 
-Skel.run!
+Skel::App.run!
