@@ -10,5 +10,5 @@ $: << "#{APP_ROOT}/lib/"
 
 require 'skel'
 
-run Skel.new
+run Skel::App.new
 

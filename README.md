@@ -20,7 +20,7 @@ Dependencies
 Getting Started
 ---------------
 
-  sudo gem install bundler
-  sudo gem bundle
+   sudo gem install bundler
+   sudo gem bundle
 
 
