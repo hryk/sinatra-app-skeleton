@@ -20,7 +20,7 @@ gem "mailfactory"
 gem "sinatra-mailer", "0.9.3",
   :git => "git://github.com/kusor/sinatra_mailer.git" #,  :vendored_at => "vendor/gems/sinatra-mailer"
 
-gem "sinatra-static-assets", "0.2.5",
+gem "sinatra-static-assets", "0.4.0",
   :git => "git://github.com/wbzyl/sinatra-static-assets.git" #,  :vendored_at => "vendor/gems/sinatra-static-assets"
 
 gem "sinatra-content-for", "0.2",
@@ -37,5 +37,8 @@ gem 'sinatra-erubis', '0.0.1',
 
 gem 'sinatra-respond_to', '0.3.6',
   :git => "git://github.com/hryk/sinatra-respond_to.git"
+
+gem 'nfc', '2.0.2',
+  :git => "git://github.com/hryk/nfc.git"
 
 disable_system_gems
